@@ -1,0 +1,603 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Muli:300");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url(https://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:900');
+
+/* Michelle's attempt to use League Spartan */
+@font-face {
+  font-family: "LeagueSpartan-Bold";
+  src: url(../fonts/LeagueSpartan-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Flaticon";
+  src: url(../fonts/Flaticon.woff);
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "LeagueSpartan-Bold", "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+}
+
+h1{
+  font-size: 55px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+/** Accent font **/
+h4{
+  font-size: 30px;
+  color: #e73a3c;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+span{
+    font-size: 30px;
+}
+
+li{
+    font-size: 18px;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+table p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+td{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+    color: #e73a3c;
+}
+a:hover {
+  color: #e73a3c;
+  text-decoration: none;
+}
+
+/** For the icons **/
+i {
+  font-family: "Flaticon", sans-serif;
+  color: #e73a3c;
+  font-size: 30px;
+
+}
+.topnav {
+    font-size: 14px;
+
+}
+
+.navbar-default {
+  /** Navbar colors **/
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar-font{
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+}
+
+.navbar a {
+    color: #2d2d2d!important;
+}
+
+.navbar a:hover {
+    color: #e73a3c!important;
+}
+
+.navbar-topleft{
+    padding-top: 18px;
+    font-size: 25px;
+    font-family: "LeagueSpartan-Bold", sans-serif;
+}
+
+.lead {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
+    color: #f8f8f8;
+    background: url(../img/group.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 4em;
+    color:black;
+}
+
+
+#topleftlogo {
+  color: #e73a3c!important;
+}
+
+#titletitle{
+    margin: 0 auto;
+    font-family: "LeagueSpartan-Bold";
+    -webkit-animation-delay: 0s;
+}
+
+#titletitle img {
+  height: 95%;
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subtitle{
+  margin-top: 0px;
+}
+
+#head-title{
+    font-size: 1em;
+}
+/**For the typewriter***/
+.header-text > h1{
+    font-size: 4em;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+}
+
+.header-text.btn{
+  padding: 0;
+  height: 3em;
+    color: white;
+}
+
+.header-text.btn:focus,
+.header-text.btn:active:focus,
+.header-text.btn.active:focus,
+.header-text.btn.focus,
+.header-text.btn:active.focus,
+.header-text.btn.active.focus {
+  outline: thin dotted transparent;
+  outline: none;
+  outline-offset: -2px;
+}
+
+.intro-message > h1 {
+    margin-top: 30px;
+    font-family: "Averia Sans Libre";
+    font-weight: 700;
+    font-size: 250px;
+    color: white;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.profileList li{
+  font-size: 20px;
+}
+
+.profileList li p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  display: inline;
+}
+.modal-dialog{
+  width: 700px;
+}
+
+.img-border{
+    width: 600px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+.modalpic {
+    width: 90%;
+    height: 90%;
+}
+
+.img-kf{
+    width: 600px;
+    height: 430px;
+    border-radius: 25px;
+}
+.img-link {
+    width: 100px;
+    height 100px;
+    border-radius: 20px;
+}
+
+@media(max-width:767px) {
+
+    .img-kf{
+        width: 300px;
+        height: 200px;
+    }
+
+    .modalpic{
+        height: auto;
+        width: auto;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    li{
+        font-size: 20px;
+    }
+
+    .img-border{
+        width: 300px;
+        height: 200px;
+    }
+
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 1.5em;
+    }
+
+    #head-title{
+        font-size: 25px;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    margin-top: 0px;
+    background-color: #2d2d2d;
+    color:white;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    padding-bottom: 55px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    font-size: 64px;
+}
+
+.section-heading-food > h1{
+    font-size: 64px;
+    margin-bottom: 0px;
+}
+
+.section-heading-food > h2{
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background-size: cover;
+    background-color: #2d2d2d;
+
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 3em;
+    font-family: "LeagueSpartan-Bold", "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+.sociallinks{
+  padding-bottom: 30px;
+}
+
+/** Highlight
+/*** Works on common browsers ***/
+::selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #e73a3c;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #e73a3c;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #e73a3c;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #e73a3c;
+    color: #fff;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+
+.content { /**top padding for navbar to not cover**/
+    padding-top: 50px;
+}
+
+.img-center { /**Staff page to center picture **/
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+  margin: 0 auto;
+    height: 250px;
+    width: 250px;
+}
+
+.img-center:hover { /** hover animation for staff picture**/
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border: 0px solid #3b3a36;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+.calendar {
+    padding-bottom: 20px;
+}
+
+.error{
+    background: url(../img/bx-slider/sorrydog.jpg) no-repeat center center;
+}
+
+.blockquote
+{
+  font-size: 18px;
+  padding-left: 8px;
+  max-width: 250px;
+}
+
+/** Hover animation **/
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.08);
+}
+/** staff page css
+.box {
+  cursor: pointer;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+}
+.box img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+.box .overbox {
+  background-color: #304562;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  z-index: 100;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 360px;
+  height: 240px;
+  padding: 130px 20px;
+}
+.box:hover .overbox { opacity: 1; }
+.box .overtext {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+}
+.box .title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+}
+.box:hover .title,
+.box:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+.box .tagline {
+  font-size: 0.8em;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.2s;
+}
+.box:hover .tagline,
+.box:focus .tagline {
+  opacity: 1;
+  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+}
+**/
+
+/** Colors:
+    Red: #e73a3c
+    Black: #2d2d2d
+ **/
